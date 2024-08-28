@@ -12,3 +12,6 @@
 
 ## Make sure to install a font that includes icons:
 - https://www.nerdfonts.com/font-downloads
+
+## (Optional) Setup copilot
+- Enable copilot by opening `./lua/custom/plugins/ai.lua` and removing the line `enabled = false,`.

@@ -5,7 +5,8 @@
 - Install using your package manager (eg brew install catimg)
 
 ## Make sure to install the debuggers you need
-- Delve for golang
+- delve for golang
+- rspec and debug gems for ruby
 
 ## Use :checkhealth to check what errors come up with installation
 

@@ -6,7 +6,9 @@ return {
       'mfussenegger/nvim-dap',
       'nvim-neotest/nvim-nio',
       -- Go setup (make sure to install delve)
-      'leoluz/nvim-dap-go'
+      'leoluz/nvim-dap-go',
+      -- Ruby setup (make sure to install the rspec and debug gems)
+      'suketa/nvim-dap-ruby',
     },
     config = function()
       require('dapui').setup()
@@ -34,6 +36,9 @@ return {
 
       -- Go setup
       require('dap-go').setup()
+
+      -- Ruby setup
+      require('dap-ruby').setup()
     end
   }
 }

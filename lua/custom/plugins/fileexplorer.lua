@@ -2,7 +2,7 @@ return {
   'stevearc/oil.nvim',
   opts = {},
   keys = {
-    { "-", mode = { "n" }, "<cmd>Oil<cr>", desc = "Open parent directory in oil file explorer/editor" },
+    { "-", "<cmd>Oil<cr>", mode = { "n" }, desc = "Open parent directory in oil file explorer/editor" },
   },
   -- Optional dependencies
   dependencies = { { "echasnovski/mini.icons", opts = {} } },

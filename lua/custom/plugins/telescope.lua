@@ -110,7 +110,7 @@ return {
     vim.keymap.set('n', '<leader>s.', builtin.oldfiles, { desc = '[S]earch Recent Files ("." for repeat)' })
     vim.keymap.set('n', '<leader><leader>', builtin.buffers, { desc = '[ ] Find existing buffers' })
 
-    vim.keymap.set('n', '<C-p>', builtin.find_files)
+    vim.keymap.set('n', '<C-p>', builtin.find_files, { desc = 'Fuzzy search for a file by name' })
     vim.keymap.set('n', '\\', builtin.live_grep)
 
     -- Slightly advanced example of overriding default behavior and theme

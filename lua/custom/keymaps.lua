@@ -22,6 +22,9 @@ local modeMappings = {
     {"<C-j>", "<C-w>j", { desc = "Move to the window below" }},
     {"<C-k>", "<C-w>k", { desc = "Move to the window above" }},
     {"<C-l>", "<C-w>l", { desc = "Move to the window to the right" }},
+    {"<Leader>yrp", '<Cmd>let @"=expand("%")<cr><Cmd>let @+=expand("%")<cr>', { desc = "[Y]ank to clipboard [R]elative [P]ath" }},
+    {"<Leader>yfp", '<Cmd>let @"=expand("%:p")<cr><Cmd>let @+=expand("%:p")<cr>', { desc = "[Y]ank to clipboard [F]ull [P]ath" }},
+    {"<Leader>yfn", '<Cmd>let @"=expand("%:t")<cr><Cmd>let @+=expand("%:t")<cr>', { desc = "[Y]ank to clipboard [F]ile[N]ame" }},
   },
   v = {
     {"jk", "<Esc>", { desc = "Remap escape to home row on keyboard" }},

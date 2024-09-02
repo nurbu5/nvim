@@ -8,6 +8,9 @@
 - delve for golang
 - rspec and debug gems for ruby
 
+## Use :LspInstall to install the language server for the file you're currently viewing
+- You can also use :LspInfo to check if a language server is already installed
+
 ## Use :checkhealth to check what errors come up with installation
 
 ## Make sure to install a font that includes icons:

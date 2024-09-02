@@ -8,6 +8,8 @@
 - delve for golang
 - rspec and debug gems for ruby
 
+## Add any formatters you're using to: `lua/custom/plugins/formatting.lua`
+
 ## Use :LspInstall to install the language server for the file you're currently viewing
 - You can also use :LspInfo to check if a language server is already installed
 

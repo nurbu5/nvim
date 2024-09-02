@@ -1,3 +1,4 @@
+require "custom.autocommands"
 require "custom.options"
 require "custom.globals"
 require "custom.keymaps"

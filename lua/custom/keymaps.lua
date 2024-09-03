@@ -16,7 +16,7 @@ local modeMappings = {
     {"jk", "<Esc>", { desc = "Remap escape to home row on keyboard" }},
   },
   n = {
-    {"<CR>", ":noh<CR>", { desc = "Remove highlighting" }},
+    {"<CR>", ":noh<CR><CR>", { desc = "Remove highlighting" }},
     -- Window navigation
     {"<C-h>", "<C-w>h", { desc = "Move to the window to the left" }},
     {"<C-j>", "<C-w>j", { desc = "Move to the window below" }},

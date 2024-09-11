@@ -1,5 +1,6 @@
 return {
 	"zbirenbaum/copilot.lua",
+	enabled = false,
 	cmd = "Copilot",
 	build = ":Copilot auth",
 	event = "InsertEnter",
@@ -29,7 +30,20 @@ return {
 					ratio = 0.5,
 				},
 			},
-			suggestion = { enabled = false },
+			suggestion = {
+				enabled = true,
+				auto_trigger = true,
+				hide_during_completion = true,
+				debounce = 75,
+				keymap = {
+					accept = "<C-a>",
+					accept_word = false,
+					accept_line = false,
+					next = "<C-w>",
+					prev = "<C-q>",
+					dismiss = "<C-x>",
+				},
+			},
 			filetypes = {
 				markdown = true,
 				help = false,

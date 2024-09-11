@@ -1,9 +1,9 @@
 local globals = {
-  mapleader = " ",
-  maplocalleader = " ",
-  have_nerd_font = true,
+	mapleader = " ",
+	maplocalleader = " ",
+	have_nerd_font = true,
 }
 
 for k, v in pairs(globals) do
-  vim.g[k] = v
+	vim.g[k] = v
 end

@@ -11,6 +11,7 @@ return {
 			ruby = { "rubocop" },
 			rust = { "rustfmt", lsp_format = "fallback" },
 			javascript = { "prettierd", "prettier", stop_after_first = true },
+			typescript = { "prettierd", "prettier", stop_after_first = true },
 		},
 		formatters = {
 			gofmt = {
@@ -19,7 +20,7 @@ return {
 		},
 		format_on_save = {
 			-- These options will be passed to conform.format()
-			timeout_ms = 500,
+			timeout_ms = 1000,
 			lsp_format = "fallback",
 		},
 	},

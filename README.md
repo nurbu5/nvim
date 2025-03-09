@@ -4,14 +4,17 @@
 - This will allow you to view images in the terminal
 - Install using your package manager (eg brew install catimg)
 
+## If you forget a keymap try <leader>sk
+
 ## Make sure to install the debuggers you need
 - delve for golang
 - rspec and debug gems for ruby
 
 ## Add any formatters you're using to: `lua/custom/plugins/formatting.lua`
+- Formatters will also need to be installed (use :Mason)
 
 ## Use :LspInstall to install the language server for the file you're currently viewing
-- You can also use :LspInfo to check if a language server is already installed
+- Use :LspInfo to check if a language server is already installed
 
 ## Use :checkhealth to check what errors come up with installation
 
